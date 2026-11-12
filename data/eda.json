@@ -1,0 +1,45 @@
+{
+  "source": "Team-ACE/ToolACE",
+  "revision": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+  "seed": 42,
+  "raw_dialogues": 11300,
+  "method": "first user/assistant exchange only",
+  "rejected": {
+    "SyntaxError": 116,
+    "ValueError": 626,
+    "prompt_over_1536": 67,
+    "KeyError": 65,
+    "JSONDecodeError": 155,
+    "duplicate_prompt": 36
+  },
+  "train_eligible": 9220,
+  "train": {
+    "examples": 2048,
+    "with_call": 1768,
+    "without_call": 280
+  },
+  "validation_eligible": 1015,
+  "validation": {
+    "examples": 128,
+    "with_call": 117,
+    "without_call": 11
+  },
+  "prompt_tokens": {
+    "min": 272.0,
+    "median": 662.0,
+    "p90": 1056.300000000001,
+    "max": 2740.0
+  },
+  "reference_tokens": {
+    "min": 2.0,
+    "median": 36.0,
+    "p90": 111.0,
+    "max": 1174.0
+  },
+  "tools": {
+    "min": 1.0,
+    "median": 3.0,
+    "p90": 6.0,
+    "max": 9.0
+  }
+}

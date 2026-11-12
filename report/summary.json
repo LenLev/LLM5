@@ -1,0 +1,685 @@
+{
+  "metrics": {
+    "base": {
+      "overall": 0.6893333333333334,
+      "groups": {
+        "simple": 0.68,
+        "multiple": 0.7866666666666666,
+        "parallel": 0.56,
+        "parallel_multiple": 0.8,
+        "irrelevance": 0.62
+      },
+      "categories": {
+        "simple": {
+          "correct": 34,
+          "total": 50,
+          "accuracy": 0.68
+        },
+        "multiple": {
+          "correct": 60,
+          "total": 75,
+          "accuracy": 0.8
+        },
+        "live_multiple": {
+          "correct": 58,
+          "total": 75,
+          "accuracy": 0.7733333333333333
+        },
+        "parallel": {
+          "correct": 28,
+          "total": 50,
+          "accuracy": 0.56
+        },
+        "parallel_multiple": {
+          "correct": 40,
+          "total": 50,
+          "accuracy": 0.8
+        },
+        "irrelevance": {
+          "correct": 16,
+          "total": 25,
+          "accuracy": 0.64
+        },
+        "live_irrelevance": {
+          "correct": 15,
+          "total": 25,
+          "accuracy": 0.6
+        }
+      },
+      "model": "Qwen/Qwen3.5-2B",
+      "base_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+      "benchmark_sha256": "b257ffe2c539897123706ed2211f9ad0e68b8f8fbad7b523ba5a3fcca2a457b2",
+      "decoding": {
+        "temperature": 0,
+        "max_new_tokens": 1024,
+        "enable_thinking": false,
+        "seed": 42
+      },
+      "versions": {
+        "numpy": "2.2.6",
+        "vllm": "0.22.0+cu129",
+        "transformers": "5.9.0",
+        "torch": "2.11.0+cu129",
+        "trl": "1.16.0",
+        "bfcl-eval": "2026.3.23"
+      },
+      "elapsed_seconds": 80.0
+    },
+    "rl1": {
+      "overall": 0.6880000000000001,
+      "groups": {
+        "simple": 0.64,
+        "multiple": 0.76,
+        "parallel": 0.52,
+        "parallel_multiple": 0.72,
+        "irrelevance": 0.8
+      },
+      "categories": {
+        "simple": {
+          "correct": 32,
+          "total": 50,
+          "accuracy": 0.64
+        },
+        "multiple": {
+          "correct": 57,
+          "total": 75,
+          "accuracy": 0.76
+        },
+        "live_multiple": {
+          "correct": 57,
+          "total": 75,
+          "accuracy": 0.76
+        },
+        "parallel": {
+          "correct": 26,
+          "total": 50,
+          "accuracy": 0.52
+        },
+        "parallel_multiple": {
+          "correct": 36,
+          "total": 50,
+          "accuracy": 0.72
+        },
+        "irrelevance": {
+          "correct": 20,
+          "total": 25,
+          "accuracy": 0.8
+        },
+        "live_irrelevance": {
+          "correct": 20,
+          "total": 25,
+          "accuracy": 0.8
+        }
+      },
+      "model": "checkpoints/rl1",
+      "base_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+      "benchmark_sha256": "b257ffe2c539897123706ed2211f9ad0e68b8f8fbad7b523ba5a3fcca2a457b2",
+      "decoding": {
+        "temperature": 0,
+        "max_new_tokens": 1024,
+        "enable_thinking": false,
+        "seed": 42
+      },
+      "versions": {
+        "numpy": "2.2.6",
+        "vllm": "0.22.0+cu129",
+        "transformers": "5.9.0",
+        "torch": "2.11.0+cu129",
+        "trl": "1.16.0",
+        "bfcl-eval": "2026.3.23"
+      },
+      "elapsed_seconds": 77.5
+    },
+    "rl2": {
+      "overall": 0.7146666666666667,
+      "groups": {
+        "simple": 0.68,
+        "multiple": 0.7933333333333333,
+        "parallel": 0.54,
+        "parallel_multiple": 0.8,
+        "irrelevance": 0.76
+      },
+      "categories": {
+        "simple": {
+          "correct": 34,
+          "total": 50,
+          "accuracy": 0.68
+        },
+        "multiple": {
+          "correct": 62,
+          "total": 75,
+          "accuracy": 0.8266666666666667
+        },
+        "live_multiple": {
+          "correct": 57,
+          "total": 75,
+          "accuracy": 0.76
+        },
+        "parallel": {
+          "correct": 27,
+          "total": 50,
+          "accuracy": 0.54
+        },
+        "parallel_multiple": {
+          "correct": 40,
+          "total": 50,
+          "accuracy": 0.8
+        },
+        "irrelevance": {
+          "correct": 20,
+          "total": 25,
+          "accuracy": 0.8
+        },
+        "live_irrelevance": {
+          "correct": 18,
+          "total": 25,
+          "accuracy": 0.72
+        }
+      },
+      "model": "checkpoints/rl2",
+      "base_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+      "benchmark_sha256": "b257ffe2c539897123706ed2211f9ad0e68b8f8fbad7b523ba5a3fcca2a457b2",
+      "decoding": {
+        "temperature": 0,
+        "max_new_tokens": 1024,
+        "enable_thinking": false,
+        "seed": 42
+      },
+      "versions": {
+        "numpy": "2.2.6",
+        "vllm": "0.22.0+cu129",
+        "transformers": "5.9.0",
+        "torch": "2.11.0+cu129",
+        "trl": "1.16.0",
+        "bfcl-eval": "2026.3.23"
+      },
+      "elapsed_seconds": 74.9
+    },
+    "rl3": {
+      "overall": 0.7533333333333333,
+      "groups": {
+        "simple": 0.8,
+        "multiple": 0.8466666666666667,
+        "parallel": 0.66,
+        "parallel_multiple": 0.78,
+        "irrelevance": 0.6799999999999999
+      },
+      "categories": {
+        "simple": {
+          "correct": 40,
+          "total": 50,
+          "accuracy": 0.8
+        },
+        "multiple": {
+          "correct": 70,
+          "total": 75,
+          "accuracy": 0.9333333333333333
+        },
+        "live_multiple": {
+          "correct": 57,
+          "total": 75,
+          "accuracy": 0.76
+        },
+        "parallel": {
+          "correct": 33,
+          "total": 50,
+          "accuracy": 0.66
+        },
+        "parallel_multiple": {
+          "correct": 39,
+          "total": 50,
+          "accuracy": 0.78
+        },
+        "irrelevance": {
+          "correct": 18,
+          "total": 25,
+          "accuracy": 0.72
+        },
+        "live_irrelevance": {
+          "correct": 16,
+          "total": 25,
+          "accuracy": 0.64
+        }
+      },
+      "model": "checkpoints/rl3",
+      "base_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+      "benchmark_sha256": "b257ffe2c539897123706ed2211f9ad0e68b8f8fbad7b523ba5a3fcca2a457b2",
+      "decoding": {
+        "temperature": 0,
+        "max_new_tokens": 1024,
+        "enable_thinking": false,
+        "seed": 42
+      },
+      "versions": {
+        "numpy": "2.2.6",
+        "vllm": "0.22.0+cu129",
+        "transformers": "5.9.0",
+        "torch": "2.11.0+cu129",
+        "trl": "1.16.0",
+        "bfcl-eval": "2026.3.23"
+      },
+      "elapsed_seconds": 76.2
+    }
+  },
+  "validation": {
+    "base": {
+      "n": 128,
+      "exact": 0.59375,
+      "dense": 0.7428276909722222
+    },
+    "rl1": {
+      "n": 128,
+      "exact": 0.6328125,
+      "dense": 0.7722873263888889
+    },
+    "rl2": {
+      "n": 128,
+      "exact": 0.6171875,
+      "dense": 0.7582899305555556
+    },
+    "rl3": {
+      "n": 128,
+      "exact": 0.640625,
+      "dense": 0.7722873263888889
+    }
+  },
+  "training": {
+    "rl1": {
+      "steps": 100,
+      "first_20_reward": 0.50625,
+      "last_20_reward": 0.51875,
+      "zero_std_fraction": 0.7425,
+      "nonzero_gradient_steps": 70,
+      "clipped_completion_fraction": 0.035625
+    },
+    "rl2": {
+      "steps": 100,
+      "first_20_reward": 0.6605598866939545,
+      "last_20_reward": 0.6845941811800003,
+      "zero_std_fraction": 0.6175,
+      "nonzero_gradient_steps": 84,
+      "clipped_completion_fraction": 0.029375
+    },
+    "rl3": {
+      "steps": 100,
+      "first_20_reward": 0.6604426980018616,
+      "last_20_reward": 0.7375434011220932,
+      "zero_std_fraction": 0.5925,
+      "nonzero_gradient_steps": 93,
+      "clipped_completion_fraction": 0.030625
+    }
+  },
+  "best_rl": "rl3",
+  "errors_total": 77,
+  "error_examples": [
+    {
+      "kind": "extra_call",
+      "id": "irrelevance_11",
+      "category": "irrelevance",
+      "response": "I will use the `get_closest_prime` function to find the closest prime number to 30.\n\n<tool_call>\n<function=get_closest_prime>\n<parameter=number>\n30\n</parameter>\n</function>\n</tool_call>",
+      "calls": [
+        {
+          "get_closest_prime": {
+            "number": 30
+          }
+        }
+      ],
+      "check": {
+        "valid": false,
+        "error": "Вызов инструмента не требовался."
+      },
+      "finish_reason": "stop",
+      "prompt_tokens": 336,
+      "completion_tokens": 52,
+      "question": [
+        {
+          "role": "user",
+          "content": "What is the closest integer to 30?"
+        }
+      ],
+      "ground_truth": []
+    },
+    {
+      "kind": "missing_call",
+      "id": "simple_225",
+      "category": "simple",
+      "response": "I do not have access to the specific dataset or research results for this query. The tool `psych_research.get_preference` requires specific parameters (category, option_one, option_two, and optionally demographic) to gather the data, but I cannot execute it without knowing the exact category and options you are interested in.\n\nCould you please provide the specific category (e.g., \"reading\") and the two specific options (e.g., \"digital reading\" and \"physical books\")?",
+      "calls": [],
+      "check": {
+        "valid": false,
+        "error": "Ожидался вызов инструмента."
+      },
+      "finish_reason": "stop",
+      "prompt_tokens": 399,
+      "completion_tokens": 98,
+      "question": [
+        {
+          "role": "user",
+          "content": "What is the percentage of population preferring digital reading over physical books?"
+        }
+      ],
+      "ground_truth": [
+        {
+          "psych_research.get_preference": {
+            "category": [
+              "reading"
+            ],
+            "option_one": [
+              "digital reading",
+              "digital"
+            ],
+            "option_two": [
+              "physical book",
+              "physical",
+              "physical books"
+            ],
+            "demographic": [
+              "",
+              "all"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "simple",
+      "id": "simple_386",
+      "category": "simple",
+      "response": "I will book a luxury room in Hotel Paradise, Las Vegas, with a city view for 3 days starting from May 12, 2022.\n\n<tool_call>\n<function=book_hotel>\n<parameter=hotel_name>\nHotel Paradise\n</parameter>\n<parameter=location>\nLas Vegas\n</parameter>\n<parameter=room_type>\nluxury room\n</parameter>\n<parameter=start_date>\n2022-05-12\n</parameter>\n<parameter=stay_duration>\n3\n</parameter>\n<parameter=view>\ncity\n</parameter>\n</function>\n</tool_call>",
+      "calls": [
+        {
+          "book_hotel": {
+            "hotel_name": "Hotel Paradise",
+            "location": "Las Vegas",
+            "room_type": "luxury room",
+            "start_date": "2022-05-12",
+            "stay_duration": 3,
+            "view": "city"
+          }
+        }
+      ],
+      "check": {
+        "valid": false,
+        "error": [
+          "Invalid value for parameter 'room_type': 'luxury room'. Expected one of ['luxury', 'Luxury']. Case insensitive."
+        ],
+        "error_type": "value_error:string"
+      },
+      "finish_reason": "stop",
+      "prompt_tokens": 469,
+      "completion_tokens": 138,
+      "question": [
+        {
+          "role": "user",
+          "content": "Book a luxury room in Hotel Paradise, Las Vegas, with a city view for 3 days starting from May 12, 2022."
+        }
+      ],
+      "ground_truth": [
+        {
+          "book_hotel": {
+            "hotel_name": [
+              "Hotel Paradise"
+            ],
+            "location": [
+              "Las Vegas",
+              "LV"
+            ],
+            "room_type": [
+              "luxury",
+              "Luxury"
+            ],
+            "start_date": [
+              "05-12-2022",
+              "2022-05-12",
+              "12/05/2022",
+              "May.12,2022",
+              "May 12, 2022"
+            ],
+            "stay_duration": [
+              3
+            ],
+            "view": [
+              "city view",
+              "city"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "multiple",
+      "id": "multiple_26",
+      "category": "multiple",
+      "response": "I will retrieve the rewards for Fortnite on the Playstation platform, first for the default mission and trophy, and then for a few other common ones.\n\n<tool_call>\n<function=game_rewards.get>\n<parameter=game>\nFortnite\n</parameter>\n<parameter=platform>\nPlaystation\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=game_rewards.get>\n<parameter=game>\nFortnite\n</parameter>\n<parameter=platform>\nPlaystation\n</parameter>\n<parameter=mission>\nWin a match\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=game_rewards.get>\n<parameter=game>\nFortnite\n</parameter>\n<parameter=platform>\nPlaystation\n</parameter>\n<parameter=mission>\nWin a match\n</parameter>\n<parameter=trophy>\nBronze\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=game_rewards.get>\n<parameter=game>\nFortnite\n</parameter>\n<parameter=platform>\nPlaystation\n</parameter>\n<parameter=mission>\nWin a match\n</parameter>\n<parameter=trophy>\nSilver\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=game_rewards.get>\n<parameter=game>\nFortnite\n</parameter>\n<parameter=platform>\nPlaystation\n</parameter>\n<parameter=mission>\nWin a match\n</parameter>\n<parameter=trophy>\nGold\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=game_rewards.get>\n<parameter=game>\nFortnite\n</parameter>\n<parameter=platform>\nPlaystation\n</parameter>\n<parameter=mission>\nWin a match\n</parameter>\n<parameter=trophy>\nPlatinum\n</parameter>\n</function>\n</tool_call>",
+      "calls": [
+        {
+          "game_rewards.get": {
+            "game": "Fortnite",
+            "platform": "Playstation"
+          }
+        },
+        {
+          "game_rewards.get": {
+            "game": "Fortnite",
+            "platform": "Playstation",
+            "mission": "Win a match"
+          }
+        },
+        {
+          "game_rewards.get": {
+            "game": "Fortnite",
+            "platform": "Playstation",
+            "mission": "Win a match",
+            "trophy": "Bronze"
+          }
+        },
+        {
+          "game_rewards.get": {
+            "game": "Fortnite",
+            "platform": "Playstation",
+            "mission": "Win a match",
+            "trophy": "Silver"
+          }
+        },
+        {
+          "game_rewards.get": {
+            "game": "Fortnite",
+            "platform": "Playstation",
+            "mission": "Win a match",
+            "trophy": "Gold"
+          }
+        },
+        {
+          "game_rewards.get": {
+            "game": "Fortnite",
+            "platform": "Playstation",
+            "mission": "Win a match",
+            "trophy": "Platinum"
+          }
+        }
+      ],
+      "check": {
+        "valid": false,
+        "error": [
+          "Wrong number of functions."
+        ],
+        "error_type": "multiple_function_checker:wrong_count"
+      },
+      "finish_reason": "stop",
+      "prompt_tokens": 640,
+      "completion_tokens": 402,
+      "question": [
+        {
+          "role": "user",
+          "content": "Find out the rewards for playing Fortnite on Playstation platform with different missions and trophies"
+        }
+      ],
+      "ground_truth": [
+        {
+          "game_rewards.get": {
+            "game": [
+              "Fortnite"
+            ],
+            "platform": [
+              "Playstation",
+              "PS"
+            ],
+            "mission": [
+              ""
+            ],
+            "trophy": [
+              ""
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "kind": "parallel",
+      "id": "parallel_105",
+      "category": "parallel",
+      "response": "I will calculate the heat capacity for the three conditions you described using the `calc_heat_capacity` tool.\n\n1.  **Condition 1:** Volume = 2.5 m³, Temperature = 300 K\n2.  **Condition 2:** Volume = 1.5 m³, Temperature = 350 K\n3.  **Condition 3:** Volume = 2.5 m³, Temperature = 300 K (Note: You mentioned repeating at 300K with a lower volume, but the first condition was 2.5m³. I will assume the third condition is the 300K case with the 1.5m³ volume as implied by the sequence).\n\n<tool_call>\n<function=calc_heat_capacity>\n<parameter=temp>\n300\n</parameter>\n<parameter=volume>\n2.5\n</parameter>\n<parameter=gas>\nair\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=calc_heat_capacity>\n<parameter=temp>\n350\n</parameter>\n<parameter=volume>\n1.5\n</parameter>\n<parameter=gas>\nair\n</parameter>\n</function>\n</tool_call>\n<tool_call>\n<function=calc_heat_capacity>\n<parameter=temp>\n300\n</parameter>\n<parameter=volume>\n1.5\n</parameter>\n<parameter=gas>\nair\n</parameter>\n</function>\n</tool_call>",
+      "calls": [
+        {
+          "calc_heat_capacity": {
+            "temp": 300,
+            "volume": 2.5,
+            "gas": "air"
+          }
+        },
+        {
+          "calc_heat_capacity": {
+            "temp": 350,
+            "volume": 1.5,
+            "gas": "air"
+          }
+        },
+        {
+          "calc_heat_capacity": {
+            "temp": 300,
+            "volume": 1.5,
+            "gas": "air"
+          }
+        }
+      ],
+      "check": {
+        "valid": false,
+        "error": [
+          "Could not find a matching function among index [1, 2] of model output for index 1 of possible answers.",
+          {
+            "Model Result Index 1": {
+              "sub_error": [
+                "Invalid value for parameter 'volume': 1.5. Expected one of [2.5]."
+              ],
+              "sub_error_type": "value_error:others",
+              "model_output_item": {
+                "calc_heat_capacity": {
+                  "temp": 350,
+                  "volume": 1.5,
+                  "gas": "air"
+                }
+              },
+              "possible_answer_item": {
+                "calc_heat_capacity": {
+                  "temp": [
+                    350
+                  ],
+                  "volume": [
+                    2.5
+                  ],
+                  "gas": [
+                    "air",
+                    ""
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "Model Result Index 2": {
+              "sub_error": [
+                "Invalid value for parameter 'temp': 300. Expected one of [350]."
+              ],
+              "sub_error_type": "value_error:others",
+              "model_output_item": {
+                "calc_heat_capacity": {
+                  "temp": 300,
+                  "volume": 1.5,
+                  "gas": "air"
+                }
+              },
+              "possible_answer_item": {
+                "calc_heat_capacity": {
+                  "temp": [
+                    350
+                  ],
+                  "volume": [
+                    2.5
+                  ],
+                  "gas": [
+                    "air",
+                    ""
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "error_type": "parallel_function_checker_no_order:cannot_find_match"
+      },
+      "finish_reason": "stop",
+      "prompt_tokens": 443,
+      "completion_tokens": 320,
+      "question": [
+        {
+          "role": "user",
+          "content": "\"Can you calculate the heat capacity at constant pressure of air for a science experiment I am conducting? I have a container with a volume of 2.5 m^3 and I am able to maintain the temperature at 300 Kelvin. I will be repeating the experiment at a higher temperature of 350 Kelvin and then at a lower volume of 1.5 m^3. I am using air for all these experiments. Can you provide the heat capacity for these three different conditions?\""
+        }
+      ],
+      "ground_truth": [
+        {
+          "calc_heat_capacity": {
+            "temp": [
+              300
+            ],
+            "volume": [
+              2.5
+            ],
+            "gas": [
+              "air",
+              ""
+            ]
+          }
+        },
+        {
+          "calc_heat_capacity": {
+            "temp": [
+              350
+            ],
+            "volume": [
+              2.5
+            ],
+            "gas": [
+              "air",
+              ""
+            ]
+          }
+        },
+        {
+          "calc_heat_capacity": {
+            "temp": [
+              300
+            ],
+            "volume": [
+              1.5
+            ],
+            "gas": [
+              "air",
+              ""
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

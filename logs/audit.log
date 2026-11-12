@@ -1,0 +1,18 @@
+{
+  "versions": {
+    "torch": "2.11.0+cu129",
+    "trl": "1.16.0",
+    "transformers": "5.9.0",
+    "peft": "0.18.1",
+    "vllm": "0.22.0+cu129",
+    "datasets": "4.7.0"
+  },
+  "sha256": {
+    "evaluate.py": "62411a6f1bd790bd54f27fb09e567075b5b27510d126ebe145e72b8319abc7b6",
+    "bfcl.jsonl": "b257ffe2c539897123706ed2211f9ad0e68b8f8fbad7b523ba5a3fcca2a457b2",
+    "data/train.jsonl": "4d64ba97f30e75f7d527a67055ffcbe9b031b4dd171e60096d8bae0eb7580532",
+    "data/validation.jsonl": "8b7fc8bbf5ddf9fc4dc25f91c183a4bf4a93790c05e3055bb61be962a5cf6a82"
+  },
+  "dialogue_overlap": 0,
+  "prompt_overlap": 0
+}

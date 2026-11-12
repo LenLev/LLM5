@@ -1,0 +1,8 @@
+__pycache__/
+checkpoints/
+runs/*/checkpoint-*/
+runs/*/adapter/
+assignment/
+diagnostics/
+*.zip
+report/preview-*.png
